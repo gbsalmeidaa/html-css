@@ -1,0 +1,75 @@
+HTML E CSS
+h1, h2 ... h6
+hr - linha horizontal
+br - quebrar linha
+p 
+img - imagem
+a - link ( target: blank para link externo e target: self para link interno )
+link: css ( css externo )
+style ( css interno )
+b ou strong - botar frase em destaque
+i - italico
+em - enfase
+mark - marca texto
+texto pequeno - small
+texto grande - big
+texto excluido - del
+texto inserido - ins ou u
+texto sobrescrito - sup
+texto subrescrito - sub
+main
+div
+id e class
+ul
+li
+*{} - projeto todo
+margin
+padding
+background-color, color
+.blablabla ( quando for uma div em css )
+.blablabla > h1 ( quando for o h1 de uma div especifica em css )
+height, width, min ( max ) height ( width )
+font-size, text-align, font-family
+text-decoration
+border-radius
+transition-duration
+font-weight
+.menu > a:hover{} ( quando o mouse passar por cima a cor muda com o hover )
+display, object-fit, order
+list-style-position
+columns
+list-style-type
+
+VIDEO PERFEITO:
+.video{
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 54.2%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+TAMANHO PERFEITO
+    min-width:300px;
+    max-width: 1000px;
+
+simbulos:
+&reg; - marca registrada 
+&copy; - copyright 
+&trade; - tm 
+&euro; - euro 
+&pound; - libra
+&yen; - yen
+&cent; - centavo americano
+&empty; - sinal de vazio
+&Delta; - delta
+&larr; - seta esquerda
+&uarr; - seta cima
+&rarr; - seta direita
+&darr; - seta baixo
