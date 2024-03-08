@@ -1,0 +1,80 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #000000;
+    color:#F6F7EB;
+   
+}
+img{
+    width: 60%;
+
+}
+
+strong{
+    color: rgb(0, 247, 255);
+}
+h1{
+    color: white;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 30px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    height: 100vh;
+    gap: 40px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color:darkorchid;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    padding: 21.5px;
+    display: flex;
+    justify-content: space-around;
+}
+.card_box{
+    width: 100%;
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.half-container{
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+p{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.card:hover{
+    background-color: rgb(0, 247, 255);
+}
+
+      
