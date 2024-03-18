@@ -1,1 +1,61 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Nova+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: blue;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: "Galindo", sans-serif;
+
+}
+
+h2{
+    font-family: "Galindo", sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    padding-left: 5px;
+    display: block;
+    padding-right: 5px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 2px;
+    font-family: "Nova Round", system-ui;
+
+
+}
+
+.stroo{
+   padding-top: 6px;
+   font-size: 1.3em;
+   font-family: "Nova Round";
+   padding-left: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 100px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
